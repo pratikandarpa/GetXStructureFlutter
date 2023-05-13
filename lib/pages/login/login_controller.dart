@@ -30,7 +30,7 @@ class LoginController extends GetxController {
       }
     } catch (error) {
       EasyLoading.dismiss();
-      logger.e("Controller>>>>>> error $error");
+      logger.e("Controller>>> error $error");
     }
   }
 
